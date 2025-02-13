@@ -92,7 +92,7 @@ class BlurTextState extends State<BlurText>
         ),
       );
     }).toList();
-    _controller.forward();
+    _controller.animationByMode(widget.mode);
   }
 
   @override

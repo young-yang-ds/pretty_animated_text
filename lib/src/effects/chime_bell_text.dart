@@ -92,7 +92,7 @@ class ChimeBellTextState extends State<ChimeBellText>
       );
     }).toList();
 
-    _controller.forward();
+    _controller.animationByMode(widget.mode);
   }
 
   @override

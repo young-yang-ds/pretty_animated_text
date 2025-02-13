@@ -95,7 +95,7 @@ class RotateTextState extends State<RotateText>
           ),
         )
         .toList();
-    _controller.forward();
+    _controller.animationByMode(widget.mode);
   }
 
   @override

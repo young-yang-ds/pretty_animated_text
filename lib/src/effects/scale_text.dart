@@ -80,7 +80,7 @@ class ScaleTextState extends State<ScaleText>
       );
     }).toList();
 
-    _controller.forward();
+    _controller.animationByMode(widget.mode);
   }
 
   @override

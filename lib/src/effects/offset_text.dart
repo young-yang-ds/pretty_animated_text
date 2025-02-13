@@ -101,7 +101,7 @@ class OffsetTextState extends State<OffsetText>
       );
     }).toList();
 
-    _controller.forward();
+    _controller.animationByMode(widget.mode);
   }
 
   @override
